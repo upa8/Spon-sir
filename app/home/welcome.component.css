@@ -1,0 +1,115 @@
+.logo-list-div img{
+    max-width: 100%;
+    max-width: 100%;
+}
+.logo-list-div{
+    height: 150px;
+}
+.carousel-indicators .active{
+    background-color: #1e7497;
+}
+.carousel-indicators li{
+    border: 1px solid #1e7497;;
+}
+#myCarousel .carousel-indicators{
+    bottom: -3em;
+    
+}
+section.brands{
+    background-color: #f4f5f5;
+    padding: 2em;   
+}
+
+#myCarousel {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+section.aboutus {
+    background-position: center top, center top;
+    background-repeat: repeat-x, no-repeat;
+    background-image: url(app/assets/img/backgroung.svg), radial-gradient(circle at 100% 0, #ab5e74 0, #19556d 100%);
+    padding: 5em;
+    color: white;
+}
+
+.button.blue {
+    padding: 0 24px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 3px;
+    background-color: #448AF1;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
+    transition: box-shadow 80ms cubic-bezier(0.6, 0.1, 0.4, 0.9), background-color 80ms cubic-bezier(0.6, 0.1, 0.4, 0.9);
+}
+
+.button.navyblue {
+    padding: 0 24px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 3px;
+    background-color: #053748;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
+    transition: box-shadow 80ms cubic-bezier(0.6, 0.1, 0.4, 0.9), background-color 80ms cubic-bezier(0.6, 0.1, 0.4, 0.9);
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 60ms 0ms cubic-bezier(0.22, 0.61, 0.36, 1);
+    -webkit-transition: background-color 60ms 0ms cubic-bezier(0.22, 0.61, 0.36, 1);
+    white-space: nowrap;
+    max-width: unset;
+    min-width: unset;
+    margin: 0;
+    padding: 0;
+}
+
+section.blog .row{
+    padding: 20px;
+    padding-top: 5em; 
+    padding-bottom: 5em; 
+}
+section.blog h1,h4{
+    color: #053748;
+}
+section.blog p{
+    color: #4c7d95;
+}
+section.blog .left{
+    border-left: 1px solid #4c7d95;
+}
+
+section.faq {
+    background-position: center top, center top;
+    background-repeat: repeat-x, no-repeat;
+    background-image: url(app/assets/img/backgroung.svg), radial-gradient(circle at 2% 102%, #1cb594, #0094a9);
+    padding: 5em;
+    color: white;
+}
+span.Tnc{
+    text-align: left;
+    font-size: 12px;
+    color: black;
+}
+.modal-body{
+    text-align: justify;
+}
+span.Tnc ul li{
+    font-size: 12px;
+}

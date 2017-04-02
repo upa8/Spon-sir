@@ -1,0 +1,26 @@
+<div class="container">
+    <h2> {{pageTitle}} </h2>
+    <div class='row'>
+            <div class='col-md-2'>Filter by:</div>
+            <div class='col-md-4'>
+                <input type='text' [(ngModel)]='listFilter' />
+            </div>
+        </div>
+    <div class="row"
+            *ngIf='events && events.length'>
+        <div *ngFor='let event of events | eventFliter: listFilter' class="col-md-4 event-div">
+            <div class="row event-list-div">
+                <div class="col-xs-4 event-list-image-div">
+                    <img [src]='event.eventLogoUrl' class="event-list-logo">
+                </div>
+                <div class="col-xs-8 event-list-detail" >
+                    <h4><a [routerLink]="['/event', event.eventNumber]">{{ event.eventName}} </a></h4>
+                    <span class="event-list-date">from {{event.eventStartDate}} to {{event.eventEndDate}}</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

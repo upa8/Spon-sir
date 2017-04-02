@@ -1,0 +1,21 @@
+<div class="container">
+    <h2> {{pageTitle}} </h2>
+    
+    <div class="row container"
+            *ngIf='brands && brands.length'>
+        <div *ngFor='let brand of brands' class="col-md-4 event-div">
+            <div  class="row brand-list-div">
+                <div class="col-xs-4 brand-list-image-div">
+                    <img [src]='brand.brandLogoUrl' class="brand-list-logo"/>
+                </div>
+                <div class="col-xs-8 brand-list-detail" >
+                    <h2>{{ brand.brandName}} </h2>
+                    <p>{{ brand.brandDescription }}</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

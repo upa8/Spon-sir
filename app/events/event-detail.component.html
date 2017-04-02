@@ -1,0 +1,22 @@
+
+<div class="container event-container" *ngIf='event'>
+    <div class="row">
+        <div class="col-sm-2 event-detail-logo-div">
+            <img [src]='event.eventLogoUrl' class="event-detail-logo-img">
+        </div>
+        <div class="col-sm-10">
+            <h1> {{event.eventName}} </h1>
+            <a [href]='event.eventWebsiteUrl'>{{ event.eventWebsiteUrl }}</a>
+            <br>
+            <br>
+            <span><b>Dates: </b><i class="fa fa-calendar" aria-hidden="true"></i> {{ event.eventStartDate }} to {{ event.eventEndDate}}</span>
+        </div>
+    </div>
+    <div>
+        <h3>Event Description</h3>
+        <hr>
+        <p>
+            {{ event.eventDescription}}
+        </p>
+    </div>
+</div>
